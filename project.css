@@ -163,7 +163,8 @@ h3 {
     color: #FF4800;
     display: block;
 }
-.nav2-right #gsf a{
+
+.nav2-right #gsf a {
     color: #FF4800;
 }
 
@@ -2028,7 +2029,7 @@ footer {
 }
 
 .keeper p a,
-.keeper p{
+.keeper p {
     font-size: 14px;
     font-weight: 500;
     text-decoration: underline;
@@ -2912,12 +2913,16 @@ footer {
 }
 
 .web-access-hero .content h1 {
+    width: 100%;
+    text-align: center;
     font-size: 48px;
     font-weight: 300;
     color: #1F1F1F;
 }
 
 .web-access-hero .content p {
+    width: 100%;
+    text-align: center;
     font-size: 24px;
     font-weight: 700;
     color: #1F1F1F;
@@ -2955,6 +2960,7 @@ footer {
     padding: 12px 16px;
     border-radius: 0;
 }
+
 .announce-2 .dropdown-menu {
     position: absolute;
     top: 55px;
@@ -2969,6 +2975,7 @@ footer {
 
     z-index: 2000;
 }
+
 .announce-2 .dropdown-menu li {
     padding: 8px 12px;
     color: #F8F5EE;
@@ -2976,6 +2983,7 @@ footer {
     font-weight: 600;
     cursor: pointer;
 }
+
 .announce-2 .dropdown-menu li:hover {
     color: #857f7f;
     background-color: transparent;
@@ -2994,18 +3002,20 @@ footer {
 
 /* Website Access Bottom */
 
-.web-access-bottom{
+.web-access-bottom {
     width: 100%;
     height: auto;
     background-color: #F8F5EE;
 }
-.web-access-bottom .content{
+
+.web-access-bottom .content {
     width: 53%;
     height: auto;
     margin: 0 auto;
     padding-top: 90px;
 }
-.web-access-bottom .content #one{
+
+.web-access-bottom .content #one {
     font-size: 14px;
     font-weight: 500;
     padding: 5px;
@@ -3016,24 +3026,45 @@ footer {
     border-radius: 5px;
     padding-bottom: 0;
 }
-.web-access-bottom .content h1{
+
+.web-access-bottom .content h1 {
     font-weight: 300;
     margin-bottom: 90px;
 }
+
 .web-access-bottom .content #two,
-.web-access-bottom .content #three{
+.web-access-bottom .content #three {
     font-size: 18px;
     font-weight: 300;
     color: #1F1F1F;
     line-height: 1.78;
 }
+
 .web-access-bottom .content #two a,
-.web-access-bottom .content #three a{
+.web-access-bottom .content #three a {
     font-weight: 600;
     text-decoration: underline;
 }
 
-.web-access-bottom .content #three{
+.web-access-bottom .content #three {
     padding-bottom: 30px;
     margin-bottom: 0;
+}
+
+@media(max-width: 800px) {
+    .web-access-hero .content {
+        width: 100%;
+        height: auto;
+    }
+
+    .web-access-bottom .content {
+        width: 90%;
+    }
+
+    .web-access-bottom .content #two,
+    .web-access-bottom .content #three{
+        width: 100%;
+    }
+
+    
 }
