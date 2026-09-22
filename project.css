@@ -78,7 +78,7 @@ h3 {
 
 .second-nav {
     position: sticky;
-    top: 0px;
+    top: -1px;
     align-self: flex-start;
     height: fit-content;
     background-color: #FFFFFF;
@@ -214,6 +214,7 @@ nav p:hover p,
 
     .nav2 {
         width: 95%;
+        height:auto;
     }
 
     .nav2 .nav2-middle {
@@ -2223,11 +2224,32 @@ footer {
 
 .announce {
     width: 100%;
-    height: 10vh;
+    min-height: 70px;
+    height: auto;
     background-color: #F8F5EE;
     position: sticky;
-    top: 76px;
+    top: 75px;
     z-index: 999;
+}
+@media(max-width:1200px){
+    .announce{
+        top:75px;
+    }
+}
+@media(max-width:1070px){
+    .announce{
+        top:68px;
+    }
+}
+@media(max-width: 830px){
+    .announce{
+        top: 67px;
+    }
+}
+@media(max-width:480px){
+    .announce{
+        top: 48px;
+    }
 }
 
 .announce .announce-cont {
@@ -2299,6 +2321,17 @@ footer {
 /* Hover on individual item */
 .announce .dropdown-menu li:hover {
     background-color: #F5F7F6;
+}
+
+@media(max-width:600px){
+    .announce-cont .everyone{
+        display: none;
+    }
+}
+@media(max-width:360px){
+    .announce-cont .partners{
+        display: none;
+    }
 }
 
 /* Legal Cards */
@@ -2382,6 +2415,8 @@ footer {
     font-weight: 400;
     z-index: 2;
 }
+
+
 
 /* Mobile Card */
 
