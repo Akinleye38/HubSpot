@@ -2910,6 +2910,7 @@ footer {
     align-items: center;
     gap: 10px;
     margin: 90px auto;
+    box-sizing: border-box;
 }
 
 .web-access-hero .content h1 {
@@ -2927,10 +2928,13 @@ footer {
     font-weight: 700;
     color: #1F1F1F;
 }
+.web-access-hero .content a{
+    width: 100%;
+}
 
 .web-access-hero .content button {
-    width: 375.3px;
-    height: 68px;
+    width: 100%;
+    min-height: 68px;
     display: block;
     padding: 16px 30px;
     box-sizing: border-box;
@@ -3053,8 +3057,9 @@ footer {
 
 @media(max-width: 800px) {
     .web-access-hero .content {
-        width: 100%;
+        width: 90%;
         height: auto;
+        margin: 70px auto;
     }
 
     .web-access-bottom .content {
@@ -3065,6 +3070,30 @@ footer {
     .web-access-bottom .content #three{
         width: 100%;
     }
+}
 
-    
+@media(max-width:600px){
+
+    .web-access-hero .content {
+         width: calc(100% - 40px);
+        margin: 60px 20px;
+        align-items: flex-start;
+    }
+
+    .web-access-hero .content h1 {
+        text-align: left;
+    }
+
+    .web-access-hero .content p {
+        text-align: left;
+    }
+
+    .web-access-hero .content button {
+        width: 100%;
+        height: auto;
+        min-height: 60px;
+        padding: 16px 20px;
+        align-self: stretch;
+        box-sizing: border-box;
+    }
 }
