@@ -1365,6 +1365,26 @@ section .hero {
     font-weight: 300;
 }
 
+@media(max-width:600px){
+    .text-row3{
+        flex-direction: column;
+        width: 95%;
+        align-self: stretch;
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .text-row3 p{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .text-row3 h1{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
 /* --Three entities-- */
 
 .three-ps {
@@ -1613,7 +1633,7 @@ section .hero {
     body {
         overflow-x: hidden;
     }
-
+    
     .case-study {
         flex-direction: column;
         justify-content: flex-start;
