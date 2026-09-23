@@ -1751,6 +1751,9 @@ section .hero {
     color: #F8F5EE;
     display: block;
 }
+.f-content #free a{
+    color: #F8F5EE;
+}
 
 @media(max-width: 1170px) {
     .f-content {
