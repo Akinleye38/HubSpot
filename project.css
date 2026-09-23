@@ -2926,6 +2926,8 @@ footer {
         align-items: center;
         width: 100%;
         justify-content: center;
+        
+        margin-bottom: 280px;
     }
 
     .cont-details #three p{
@@ -2965,6 +2967,7 @@ footer {
 
     .cont-details #three {
         width: 100%;
+        margin-bottom: 250px;
     }
 
     .cont-details #three p {
