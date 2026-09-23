@@ -414,6 +414,9 @@ section .hero {
     color: #FF4800;
     display: block;
 }
+.hero #b a{
+    color: #FF4800;
+}
 
 @media(max-width: 1070px) {
     section .hero {
