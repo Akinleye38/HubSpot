@@ -928,7 +928,7 @@ section .hero {
         width: 100%;
         position: sticky;
         z-index: 1000;
-        top: 86px;
+        top: 68px;
         background-color: #FCFCFA;
     }
 
