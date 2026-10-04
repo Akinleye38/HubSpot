@@ -1462,8 +1462,8 @@ section .hero {
     transform: translateY(-5px);
 }
 
-@media(max-width:600px){
-    .three-ps{
+@media(max-width:600px) {
+    .three-ps {
         gap: 20px;
         justify-content: space-between;
         overflow-x: hidden;
@@ -1645,7 +1645,7 @@ section .hero {
         flex-direction: column;
         text-align: left;
         padding: 20px 20px;
-        
+
     }
 
 
@@ -1681,11 +1681,11 @@ section .hero {
         overflow-x: hidden;
     }
 
-    .sec-last{
+    .sec-last {
         width: 95%;
         margin: 0 auto;
     }
-    
+
 
     .case-study {
         flex-direction: column;
@@ -1825,16 +1825,18 @@ section .hero {
         width: 100%;
         padding: 40px 0;
     }
-    .f-content{
+
+    .f-content {
         width: 93%;
         margin: 0 auto;
     }
+
     .f-content #one {
         display: flex;
         flex-direction: column;
     }
 
-    .f-content h1{
+    .f-content h1 {
         font-size: 40px;
     }
 
@@ -3287,6 +3289,9 @@ footer {
 
     .web-access-hero .content h1 {
         text-align: left;
+        margin-bottom: 0;
+        font-weight: 300;
+        font-size: 40px;
     }
 
     .web-access-hero .content p {
@@ -3300,5 +3305,19 @@ footer {
         padding: 16px 20px;
         align-self: stretch;
         box-sizing: border-box;
+    }
+
+    .announce-cont .Everyone {
+        display: none;
+    }
+
+    .web-access-bottom .content {
+        padding-top: 65px;
+    }
+
+    .web-access-bottom .content h1 {
+        font-size: 42px;
+        font-weight: 300;
+        margin-bottom: 60px;
     }
 }
