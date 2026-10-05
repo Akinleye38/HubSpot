@@ -2858,7 +2858,40 @@ footer {
     }
 }
 
+@media(max-width:500px) {
+    .signup-pg .signup {
+        width: calc(100% - 60px);
+        height: auto;
+    }
 
+    .signup .button button,
+    .signup input,
+    .signup #continue,
+    .signup #warning {
+        width: 320px;
+    }
+
+    .signup #or {
+        width: 85%;
+    }
+}
+
+@media(max-width: 350px){
+
+    .signup #free{
+        font-size: 16px;
+    }
+     .signup .button button,
+    .signup input,
+    .signup #continue,
+    .signup #warning {
+        width: 250px;
+    }
+
+    .signup #or {
+        width: 85%;
+    }
+}
 
 
 
